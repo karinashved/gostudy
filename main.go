@@ -13,56 +13,28 @@ func main() {
 		fmt.Println("НЕТ")
 	} else {
 		if x1+1 == x2 {
-			if y1+2 == y2 {
+			if y1+2 == y2 || y1-2 == y2 {
 				fmt.Println("ДА")
 				return
 			}
 		}
 
 		if x1+2 == x2 {
-			if y1+1 == y2 {
-				fmt.Println("ДА")
-				return
-			}
-		}
-
-		if x1+2 == x2 {
-			if y1-1 == y2 {
-				fmt.Println("ДА")
-				return
-			}
-		}
-
-		if x1+1 == x2 {
-			if y1-2 == y2 {
+			if y1-1 == y2 || y1+1 == y2 {
 				fmt.Println("ДА")
 				return
 			}
 		}
 
 		if x1-1 == x2 {
-			if y1-2 == y2 {
+			if y1-2 == y2 || y1+2 == y2 {
 				fmt.Println("ДА")
 				return
 			}
 		}
 
 		if x1-2 == x2 {
-			if y1-1 == y2 {
-				fmt.Println("ДА")
-				return
-			}
-		}
-
-		if x1-2 == x2 {
-			if y1+1 == y2 {
-				fmt.Println("ДА")
-				return
-			}
-		}
-
-		if x1-1 == x2 {
-			if y1+2 == y2 {
+			if y1-1 == y2 || y1+1 == y2 {
 				fmt.Println("ДА")
 				return
 			}
